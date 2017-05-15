@@ -43,6 +43,7 @@ def upload_file():
 
     return redirect('/')
 
+
 @app.errorhandler(404)
 def page_not_found(event):
     flash('Sorry, that page does not exist. You have been redirected home.')
