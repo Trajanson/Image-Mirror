@@ -24,37 +24,34 @@ Using Travis is built in and is as easy as `$ git push`
 
 ![travisCIRepositorySwitch]
 
-<br/>
 ## Use of the App
 
 Image Mirror takes a permissible upload file (within the set of ['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'] files) and directly pipes the uploaded file back to the user.
-######  Landing Page
+#####  Landing Page
 ![landingPage]
 
-######  Piped Image Page
+#####  Piped Image Page
 ![loadedImage]
 
-######  Flash Error
+#####  Flash Error
 Handy flash messages are available to users who encounter errors when using the application.
 ![handyError]
 
-
-<br/>
 ## Directions for Further Development
 
-###### To run the app locally via Docker:
+##### To run the app locally via Docker:
 This option is convenient in that the Dockerfile installs an immediately-ready-for-use development environment.
 - `$ chmod +x ./app.sh`
 - `$ ./app.sh`
 
-###### To run the app locally without Docker:
+##### To run the app locally without Docker:
 - `$ python run.py`
 
-###### To use the linter:
+##### To use the linter:
 - `$ pep8 --first <file_name_for_linting>`
 
 
-###### Adding Code:
+##### Adding Code:
 - `$ pip install -r requirements.txt && source app/bin/activate`
 - Edit relevant files
 - `$ deactivate && git push && open "https://image-mirror.herokuapp.com/"`
