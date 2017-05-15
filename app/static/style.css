@@ -1,0 +1,20 @@
+.title-container {
+    margin-top: 30px;
+}
+
+.title {
+    padding: 10px;
+    font-weight: bold;
+    background-color: #bcc8ea;
+    border-radius: 8px;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.flash-messages-container{
+    padding: 10px;
+    font-weight: bold;
+    color: #ad3b3b;
+}
