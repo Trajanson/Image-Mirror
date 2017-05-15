@@ -6,4 +6,9 @@ install:
 script: python app_tests.py
 notifications:
   email:
-    - julian.trajanson@gmail.com
+  - julian.trajanson@gmail.com
+deploy:
+  provider: heroku
+  app: image-mirror    
+  api_key:
+    secure: lUl9uI9/ihw4hw0IuZDIW84Pxu6TuNTlPGASfOi1up8vSPspm3Gq1efc8hn4G0OiAdEH5Ckd74ZYeknuojiF3/XeSIi5blDTGHh+mEvHLKyHRjw9BolSDCgeZ+tNscmiZES2SEibvI1em+MvP/vo9tkSjUUVtZ0fbYv1dcxvGCAKkTb7q2x/4vOwdXGsHJF2mCi+zDmV4So7F1lCuNYPZ/mpr6AyAXXQEqdktX9oPtorM1PtwAmPdIRRtYawbJcazjELLgbhf7otGdU2RYhHC4sE7pqgFFy4G1rlk1k4xekCceyHDik7dkZzhXYnXnwgmmkxAFVcElb7LMC006SzDOcAQE4bqqeM4ZKTyU95EFhnFeukNb2jImPNKVevumE45QF0pA9G8CpDLgcRId9dxog0JnDD0Q9Pegft2+V3vxan5Y/mMoxct7XIutGi3uplhIdtKIh/tyGbruilsCQdrEWe6BBxzgGqgxsLjLU5BNuKpcBqqUfHERFap9aCUVQGvFz0SitoY/84e+zU3Ev9XXm45Td+bzTAEwjRG47Jy3P00hnds1FXIcgSTpiT1C85GI5eAIUuvir57TvUk7sP9evhIjAOW/F0McaFFOiNqvmM7WgLh7wecxV7nLk0glJeOJt0hFAH65DBqmsgRsAab4QwR5wTTyk0G4g+vgsagRE=
