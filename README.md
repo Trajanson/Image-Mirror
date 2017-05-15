@@ -55,9 +55,9 @@ This option is convenient in that the Dockerfile installs an immediately-ready-f
 
 
 ### Adding Code:
-- `$ pip install -r requirements.txt && source app/bin/activate`
+- `$ git pull; pip install -r requirements.txt; source app/bin/activate`
 - Edit relevant files
-- `$ deactivate && git push && open "https://image-mirror.herokuapp.com/"`
+- `$ deactivate; git add -A; git commit -m "edit files"; git push; open "https://image-mirror.herokuapp.com/"`
 
 
 ## Technologies Used
