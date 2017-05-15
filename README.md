@@ -47,6 +47,9 @@ This option is convenient in that the Dockerfile installs an immediately-ready-f
 ### To run the app locally without Docker:
 - `$ python run.py`
 
+### To locally run tests:
+- `$ python app_tests.py`
+
 ### To use the linter:
 - `$ pep8 --first <file_name_for_linting>`
 
