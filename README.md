@@ -1,5 +1,5 @@
 # [Image Mirror][imageMirror] [![Build Status](https://travis-ci.org/Trajanson/Image-Mirror.svg?branch=master)](https://travis-ci.org/Trajanson/Image-Mirror)
-## By [The Data Incubator][theDataIncubator]
+## By [Julian Theoderik Trajanson][trajanson]
 
 [Image Mirror][imageMirror] is a demonstration of a number of technologies in the Python [Flask][flask] ecosystem deployed via use of [Virtualenv][virtualenv], [Gunicorn][gunicorn], [Heroku][heroku], [Travis CI][travis], [Docker][docker], and Flask's native [Werkzeug testing client][werkzeug].
 
@@ -76,7 +76,7 @@ This option is convenient in that the Dockerfile installs an immediately-ready-f
 [handyError]: ./docs/handy_error.png
 
 [imageMirror]: https://image-mirror.herokuapp.com/
-[theDataIncubator]: https://www.thedataincubator.com/
+[trajanson]: http://trajanson.com/
 
 
 [docker]: https://www.docker.com/
